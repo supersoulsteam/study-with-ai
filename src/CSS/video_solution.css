@@ -26,17 +26,20 @@
 
 .text {
     height: 70vh;
-    width: 40vw;
+    width: 30vw;
     border: greenyellow solid 1px;
 }
 
 .video {
     height: 70vh;
-    width: 50vw;
-    border: greenyellow solid 1px;
+    width: 65vw;
+    border: #fff solid 2px;
+    border-radius: 5%;
+    box-shadow: inset red 0 2vw 6vh 2vw , yellow 4px 4px, yellow -4px -4px;
 }
 
 .vid {
-    height: 70vh;
-    width: 50vw;
+    border-radius: 5%;
+    height: 65vh;
+    width: 64.8vw;
 }
