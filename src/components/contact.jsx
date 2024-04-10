@@ -1,6 +1,13 @@
+import Footer from "./footer"
+
 const Contact = () => {
   return (
-    <div>This is Contact page</div>
+    <div className="contact-main">
+      <div className="contact-title">
+        <h1>Join and Connect With Us !</h1>
+      </div>
+      <Footer/>
+    </div>
   )
 }
 

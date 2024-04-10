@@ -1,6 +1,11 @@
+import Footer from "./footer"
+
 const Mentor = () => {
   return (
-    <div>This is Mentors page</div>
+    <div>
+      This is Mentors page
+      <Footer/>
+    </div>
   )
 }
 

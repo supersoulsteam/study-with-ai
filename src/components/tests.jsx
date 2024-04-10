@@ -1,6 +1,11 @@
+import Footer from "./footer"
+
 const Tests = () => {
   return (
-    <div>This is Tests page </div>
+    <div>
+      This is Tests page 
+      <Footer/>
+    </div>
   )
 }
 
