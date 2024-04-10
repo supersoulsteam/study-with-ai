@@ -1,0 +1,42 @@
+.container-home-vid {
+    margin-top: 5vh;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.vid-btn {
+    font-size: 1.5em;
+    color: #fff;
+    background: transparent;
+    border: greenyellow solid 1px;
+    padding: 2vh 15vh;
+    cursor: pointer;
+    text-align: center;
+}
+
+.main-solution {
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    height: 70vh;
+    width: 40vw;
+    border: greenyellow solid 1px;
+}
+
+.video {
+    height: 70vh;
+    width: 50vw;
+    border: greenyellow solid 1px;
+}
+
+.vid {
+    height: 70vh;
+    width: 50vw;
+}
