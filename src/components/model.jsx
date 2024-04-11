@@ -1,4 +1,6 @@
 import '../CSS/model.css'
+import mm from '../assets/mm.gif'
+import {Link} from "react-router-dom"
 const Model = () => {
     return (
         <div className="container-home-model">
@@ -10,14 +12,19 @@ const Model = () => {
             </div>
             <div className="models">
                 <div className="container1">
+                    <Link to="/mentor"><img className='gif' src={mm} alt="" /></Link>
                 </div>
                 <div className="container2">
+                    <Link to="/mentor"><img className='gif' src={mm} alt="" /></Link>
                 </div>
                 <div className="container3">
+                    <Link to="/mentor"><img className='gif' src={mm} alt="" /></Link>
                 </div>
                 <div className="container4">
+                    <Link to="/mentor"><img className='gif' src={mm} alt="" /></Link>
                 </div>
                 <div className="container5">
+                    <Link to="/mentor"><img className='gif' src={mm} alt="" /></Link>
                 </div>
             </div>
         </div>

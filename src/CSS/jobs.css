@@ -1,0 +1,26 @@
+.main-text {
+    text-align: center;
+    font-size: 1.5em;
+    background: rgb(221, 24, 213);
+    background: linear-gradient(90deg, rgba(221, 24, 213, 1) 33%, rgba(255, 255, 255, 1) 48%, rgba(255, 255, 255, 1) 55%, rgba(0, 86, 255, 1) 70%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.job-finder{
+    display: flex;
+    justify-content: center;
+}
+
+.job-search-main {
+    margin: 5vh;
+    height: 269vh;
+    width: 75vw;
+    box-shadow: yellow  -0.6vh -0.4vh;
+}
+
+.job-search {
+    height: 268.7vh;
+    border: none;
+    width: 74.7vw;
+}

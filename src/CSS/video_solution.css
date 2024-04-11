@@ -34,12 +34,10 @@
     height: 70vh;
     width: 65vw;
     border: #fff solid 2px;
-    border-radius: 5%;
     box-shadow: inset red 0 2vw 6vh 2vw , yellow 4px 4px, yellow -4px -4px;
 }
 
 .vid {
-    border-radius: 5%;
     height: 65vh;
     width: 64.8vw;
 }
