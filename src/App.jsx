@@ -8,9 +8,22 @@ import Career from "./components/career"
 import Tests from "./components/tests"
 import Jobs from "./components/jobs"
 import Contact from "./components/contact"
+
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
+ 
+
+
 const App = () => {
   return (
     <>
+     <header>
+      <SignedOut>
+        <SignInButton />
+      </SignedOut>
+      <SignedIn>
+        <UserButton />
+      </SignedIn>
+    </header>
       <BrowserRouter>
         <Navbar />
         <Routes>
